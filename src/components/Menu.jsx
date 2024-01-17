@@ -4,31 +4,30 @@ export default function Menu() {
   return (
     <nav className="menu">
       <NavLink
-        exact
         to="/"
         className="menu__item"
-        activeClassName="menu__item"
+        activeclassname="menu__item"
       >
         Главная
       </NavLink>
       <NavLink
         to="/drift"
         className="menu__item"
-        activeClassName="menu__item menu__item-active"
+        activeclassname="menu__item menu__item-active"
       >
         Дрифт-такси
       </NavLink>
       <NavLink
         to="/timeattack"
         className="menu__item"
-        activeClassName="menu__item menu__item-active"
+        activeclassname="menu__item menu__item-active"
       >
         Time Attack
       </NavLink>
       <NavLink
         to="/forza"
         className="menu__item"
-        activeClassName="menu__item menu__item-active"
+        activeclassname="menu__item menu__item-active"
       >
         Forza Karting
       </NavLink>

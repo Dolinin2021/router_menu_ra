@@ -8,28 +8,6 @@
 </head>
 <body>
   <div id="root"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.2.2/react-router-dom.min.js"></script>
-  <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
-  <script type="text/babel" src="./src/components/Menu.jsx"></script>
-  <script type="text/babel" src="./src/components/HomePage.jsx"></script>
-  <script type="text/babel" src="./src/components//DriftPage.jsx"></script>
-  <script type="text/babel" src="./src/components/TimeAttackPage.jsx"></script>
-  <script type="text/babel" src="./src/components/ForzaPage.jsx"></script>
-  <script type="text/babel" src="./src/App.jsx"></script>
-  <script type="text/babel">
-    const ReactRouter = window.ReactRouterDOM;
-    const Router = ReactRouter.HashRouter;
-    const Route = ReactRouter.Route;
-    const NavLink = ReactRouter.NavLink;
-    const Link = ReactRouter.Link;
-    const Switch = ReactRouter.Switch;
-
-    ReactDOM.render(
-      <App/>,
-      document.getElementById('root')
-    );
-  </script>
+  <script type="module" src="src/main.jsx"></script>
 </body>
 </html>
